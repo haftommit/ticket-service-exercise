@@ -1,6 +1,3 @@
-/**
- * 
- */
 package com.walmart.store.recruiting.ticket.domain;
 
 /**
@@ -25,10 +22,7 @@ public interface Seat {
     int getLevelId();
 
     void setLevelId(int levelId);
-
-	/**
-	 * @param seatHold
-	 */
+    
 	void setSeatHold(SeatHold seatHold);
 
     

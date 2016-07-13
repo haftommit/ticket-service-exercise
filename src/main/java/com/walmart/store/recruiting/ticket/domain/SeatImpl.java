@@ -64,9 +64,6 @@ public class SeatImpl implements Seat {
 		this.levelId = levelId;
 	}
 
-	/* (non-Javadoc)
-	 * @see com.walmart.store.recruiting.ticket.domain.Seat#setSeatHold(com.walmart.store.recruiting.ticket.domain.SeatHoldImpl)
-	 */
 	@Override
 	public void setSeatHold(SeatHoldImpl seatHoldImpl) {
 		// TODO Auto-generated method stub

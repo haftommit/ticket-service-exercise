@@ -62,7 +62,5 @@ public class TicketServiceImpl implements TicketService {
     private String generateId() {
         return UUID.randomUUID().toString();
     }
-
 	
-
 }

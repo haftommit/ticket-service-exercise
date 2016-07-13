@@ -25,7 +25,7 @@ public interface TicketService {
      * Commit seats held for a specific customer
      *
      * @param seatHoldId the seat hold identifier
-     * @return a reservation confirmation code, if the reservation has not expired.
+     * @return a reservation confirmation code, if the reservation has not expired as per the TIMER
      */
     Optional<String> reserveSeats(String seatHoldId);
 

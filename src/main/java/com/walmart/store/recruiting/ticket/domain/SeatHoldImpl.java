@@ -1,6 +1,4 @@
-/**
- * 
- */
+
 package com.walmart.store.recruiting.ticket.domain;
 
 import java.time.LocalDateTime;
