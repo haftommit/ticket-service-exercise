@@ -4,9 +4,6 @@ import com.walmart.store.recruiting.ticket.domain.SeatHold;
 
 import java.util.Optional;
 
-/**
- * An interface for querying and reserving seats from a single static venue.
- */
 public interface TicketService {
 
     /**

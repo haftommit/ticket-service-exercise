@@ -62,7 +62,7 @@ public class TicketServiceImplTest {
 
     @Test
     public void testMaxSeatHold() {
-        Optional<SeatHold> hold = ticketService.findAndHoldSeats(10);
+        Optional<SeatHold> hold = ticketService.findAndHoldSeats(10); 
         assertTrue(hold.isPresent());
         assertNotNull(hold.get().getId());
         assertEquals(10, hold.get().getNumSeats());
